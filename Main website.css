@@ -1,0 +1,264 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family:'BioRhyme', serif;
+    background-color: black;
+}
+
+/*Header background*/
+nav {
+    position: fixed;
+    top:0;
+    left: 0%;
+    width: 100%;
+    height: 70px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.582);
+    z-index: 100;
+}
+
+/*Essential Elegance title*/
+nav .title {
+    text-decoration: none;
+    padding: 2px 2px;
+    height: 70px;
+    float:left;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+    font-weight:bold;
+}
+
+.title a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+nav ul li a {
+    line-height: 34px;
+    color: white;
+    padding: 55px 55px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav ul li a:hover {
+    color: sienna;
+
+}
+
+/*Fading animation when you reset the page*/
+.title {
+    animation: fadeIn ease 1.0s;
+    -webkit-animation:fadeIn ease 1.0s;
+    -moz-animation: fadeIn ease 1.0s;
+    -o-animation: fadeIn ease 1.0s;
+    -ms-animation: fadeIn ease 1.0s;
+}
+
+.title {
+    opacity: 1;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+section img {
+    width: 100%;
+    border-right: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+section img{
+    animation: fadeIn ease 1.0s;
+    -webkit-animation:fadeIn ease 1.0s;
+    -moz-animation: fadeIn ease 1.0s;
+    -o-animation: fadeIn ease 1.0s;
+    -ms-animation: fadeIn ease 1.0s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+}
+
+/*Paragrah to take up space*/
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.firsttext {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.red {
+    color: rgb(207, 111, 111);
+    font-style: italic;
+}
+.orange {
+    color: rgb(197, 145, 85);
+    font-style: italic;
+}
+
+/*First candle image*/
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%
+}
+
+.candleimage1 {
+    max-width: 100%;
+}
+
+.candleimage1 img {
+    border-radius: 8px;
+}
+
+.text {
+    color: white;
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+/*First candle image animation*/
+.candleimage1 img {
+    opacity: 0.3;
+    -webkit-transition: .6s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.candleimage1:hover img {
+    opacity: 0.9; 
+    background:black;
+}
+
+
+.text p {
+    color: white;
+    font-size: 19px;
+}
+
+.yellow {
+    color: rgb(223, 176, 105);
+}
+
+/*Apple Collection*/
+.secondcontainer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%
+}
+
+.applecollection {
+    max-width: 100%;
+}
+
+.applecollection img {
+    border-radius: 8px;
+    width: 1500px;
+    height: 340px;
+}
+
+.text2 {
+    color: white;
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+.text2 p {
+    color: white;
+    font-size: 19px;
+}
+
+.apple {
+    color: yellowgreen;
+}
+
+/*Apple Collection animation*/
+.applecollection img {
+    opacity: 0.3;
+    -webkit-transition: .6s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.applecollection:hover img {
+    opacity: 0.9; 
+    background-color: black;
+}
+
+/*Footer*/
+.endingPanel {
+    width: 100%;
+    height: 750px;
+    background-image: url("candle\ collection\ 1.jpg");
+    background-size: 100% 900px;
+    font-size: 27px;
+    text-align:center;
+    padding: 35px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .endingPanel h4 {
+    padding-top: 250px;
+    padding-right: 50px;
+  }
+
+  
+

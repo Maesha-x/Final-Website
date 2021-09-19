@@ -1,0 +1,249 @@
+body {
+    padding: 0%;
+    margin: 0;
+    background-color: black;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: 30px;
+}
+
+header {
+    background:black;
+    position: center;
+    text-align: center;
+    color: white;
+    font-family:'BioRhyme', serif;
+    font-size: 10px;
+}
+
+/*Navigation bar*/
+.mainmenu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+}
+
+ul {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+a {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 19px;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex: 1 1 0px;
+    flex-basis: 100%;
+    font-size: 23px;
+    font-weight:bolder;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-variant: normal;
+}
+
+.mainmenu a:hover {
+    color: #3a7004;
+}
+
+/*Slideshow*/
+.mySlides {
+    animation: fadeIn ease 1.0s;
+    -webkit-animation: fadeIn ease 1.0s;
+    -moz-animation: fadeIn ease 1.0s;
+    -o-animation: fadeIn ease 1.0s;
+    -ms-animation: fadeIn ease 1.0s;
+  }
+
+.mySlides img {
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: auto;
+  position:relative;
+  text-align: center;
+  resize:vertical;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*That rectangle thing*/
+.rectangle {
+    display: table;
+    width: 100%;
+    height: 22px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rectangle p {
+    width: 100%;
+    color: black;
+    font-size: 22px;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+
+/*Apple Description*/
+.AppleDesc {
+  color: white;
+  font-weight: bold;
+  background-image: url("new new leave background.jpg");
+  font-size: 32px;
+  margin: 23px;
+  margin: 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.AppleDesc p {
+  padding-top: 30%;
+}
+
+.orange {
+  color:yellowgreen;
+}
+
+.grid-container.top {
+  display: grid;
+  grid-template-columns: 390px calc(100% - 390px);
+  grid-gap: 0;
+  width: 100%;
+  row-gap: 0px;
+}
+
+.grid-item.desc {
+  padding: 0;
+  box-shadow: 0px 10px 20px black;
+}
+
+.grid-item.desc {
+  background-color:black;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: bold;
+  height: 390px;
+  padding: 30px;
+}
+
+.diffcolour {
+  color:rgb(245, 184, 207);
+  font-style: italic;
+}
+
+.lightgreen {
+  color: rgb(171, 236, 106);
+  font-style: italic;
+}
+
+.grid-container.bottom {
+  display: grid;
+  grid-template-columns: calc(100% - 400px) 400px;
+  grid-gap: 0;
+  width: 100%;
+  row-gap: 0px;
+}
+
+.endingPanel {
+  width: 100%;
+  height: 800px;
+  background-image: url("candle\ collection\ 1.jpg");
+  background-size: 100% 800px;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
