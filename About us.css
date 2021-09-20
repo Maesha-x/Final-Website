@@ -247,6 +247,11 @@ img {
     color: #c54245;
 }
 
+/*Valentine color*/
+.Val {
+  color: rgb(204, 74, 74);
+}
+
 /*Footer*/
 .endingPanel {
     width: 100%;
@@ -265,3 +270,32 @@ img {
     padding-top: 250px;
     padding-right: 50px;
   }
+
+  /*Writing at the end of the footer*/
+.footer h6 {
+  color: white;
+  word-spacing: 2px;
+  text-align: center;
+  margin-top: -0.9px;
+  font-weight: lighter;
+}
+
+footer h6 a:hover {
+  color: sienna;
+}
+
+.big {
+  font-weight: bold;
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bolder;
+  color: yellowgreen;
+}

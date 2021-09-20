@@ -205,3 +205,32 @@ h2 {
 .icons img:hover {
     -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
 }
+
+/*Writing at the end of the footer*/
+.footer h6 {
+    color: white;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: -0.9px;
+    font-weight: lighter;
+}
+
+footer h6 a:hover {
+    color: sienna;
+}
+
+.big {
+    font-weight: bold;
+}
+
+.footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bolder;
+    color: yellowgreen;
+}
